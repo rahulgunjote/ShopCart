@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="CartItem" representedClassName="CartItem" syncable="YES">
+        <attribute name="addedDate" attributeType="Date" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="price" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="productImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" attributeType="Integer 64" defaultValueString="1" syncable="YES"/>
+        <attribute name="vendorAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vendorPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CartItem" positionX="-63" positionY="-18" width="128" height="165"/>
+    </elements>
+</model>
